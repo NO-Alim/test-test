@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- slide Nav -->
+  <div class="slideNavigation">
+    <div class="sidenav" id="mysidenav">
+      <a href="#" class="closebtn">&times</a>
+      <a href="#">about</a>
+      <a href="#">service</a>
+      <a href="#">clients</a>
+      <a href="#">Contact</a>
+    </div>
+    <div>
+      <h2>Animated Sidenav Example</h2>
+      <span class="openbtn">&#9776;Open</span>
+    </div>
+  </div>
+
+
+
+  <!-- icon var -->
+
+
+    <div class="icon-bar">
+        <a class="btn active" href="#"><i class="fa fa-home"></i></a> 
+        <a class="btn " href="#"><i class="fa fa-search"></i></a> 
+        <a class="btn " href="#"><i class="fa fa-envelope"></i></a> 
+        <a class="btn " href="#"><i class="fa fa-globe"></i></a>
+        <a class="btn " href="#"><i class="fa fa-trash"></i></a>
+    </div>
+
+    <!-- manu animatied -->
+
+    <div class="manu">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <!-- accordion -->
+
+    <div class="accordion">
+        <h2>Accordion with symbols</h2>
+      <button class="accbtn">Section 1</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      
+      <button class="accbtn">Section 2</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      
+      <button class="accbtn">Section 3</button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <!-- tabs -->
+    <div class="tab-main">
+        <h1 style="color: brown;">This is importent</h1>
+        <h2>Tab</h2>
+        <div class="tabs">
+            <button data-tab-target="#home" class="active3 tab">Home</button>
+            <button data-tab-target="#pricing" class="tab">Pricing</button>
+            <button data-tab-target="#about" class="tab">About</button>
+        </div>
+
+        <div class="tab-content">
+            <div id="home" data-tab-content class="active3">
+              <h1>Home</h1>
+              <p>This is the home</p>
+            </div>
+            <div id="pricing" data-tab-content>
+              <h1>Pricing</h1>
+              <p>Some information on pricing</p>
+            </div>
+            <div id="about" data-tab-content>
+              <h1>About</h1>
+              <p>Let me tell you about me</p>
+            </div>
+            <div id="news" data-tab-content>
+              <h1>News</h1>
+              <p>News is great.</p>
+            </div>
+          
+          </div>
+    </div>
+
+    <!-- search manu -->
+
+    <div class="search">
+      <div class="row">
+        <div class="left">
+          <h2>Menu</h2>
+          <input type="text" id="mySearch" placeholder="Search..." title="Type in a catagory">
+          <ul class="mymenu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">JQuery</a></li>
+            <li><a href="#">SQL</a></li>
+            <li><a href="#">Bootstrap</a></li>
+            <li><a href="#">Node.js</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <h2>Page Content</h2>
+          <p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+          <p>Some text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+          <p>Some other text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+          <p>Some text..</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal ing -->
+
+    <div class="modalImg">
+      <h2>Image Modal</h2>
+      <p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
+      <p>click the image</p>
+      <img src="img/beach-1852945_1280.jpg" class="myimg" alt="">
+
+      <div class="imgMod">
+        <span class="mdColse">&times;</span>
+        <img src="img/beach-1852945_1280.jpg" class='modal-content' alt="">
+        <div class="caption"></div>
+      </div>
+    </div>
+
+
+    <!-- tab gallary -->
+
+    <div class="tabGallery">
+      <h1>Tab Gallery</h1>
+      <div class="tabimgs">
+        <div class="column"><img src="img/wave-4063684_1920.jpg" alt="Nature" class="tabimg"></div>
+      <div class="column"><img src="img/beach-1852945_1280.jpg" alt="Snow" class="tabimg"></div>
+      <div class="column"><img src="img/beach-2334304_1920.jpg" alt="Mountains" class="tabimg"></div>
+      <div class="column"><img src="img/landscape-1192669_1280.jpg" alt="Lights" class="tabimg"></div>
+      </div>
+
+      <div class="tab-container">
+        <span class="tab-close">&times;</span>
+        <img id="expandedImg">
+        <div id="imgText"></div>
+      </div>
+    </div>
+
+    <!-- Responsive Image Grid -->
+
+    <div class="ResImg">
+      <h1>Responsive Image Grid</h1>
+      <p>With flex</p>
+      <div class="res-row">
+        <div class="res-column">
+          <img src="img/beach-1852945_1280.jpg" alt="">
+          <img src="img2/berlin-4699765_1920.jpg" alt="">
+          <img src="img2/church-5691858_1920.jpg" alt="">
+          <img src="img2/coffee-beans-5712780_1920.jpg" alt="">
+          <img src="img2/girl-5560212_1920.jpg" alt="">
+          <img src="img2/inca-dove-5669389_1920.jpg" alt="">
+          <img src="img2/man-5647507_1920.jpg" alt="">
+        </div>
+        <div class="res-column">
+          <img src="img2/microphone-5046876_1920.jpg" alt="">
+          <img src="img2/mountain-970704_1920.jpg" alt="">
+          <img src="img/wave 1257.jpg" alt="">
+          <img src="img2/mountaineers-5649828_1920.jpg" alt="">
+          <img src="img2/mountains-5627143_1920.jpg" alt="">
+          <img src="img/landscape-1192669_1280.jpg" alt="">
+          <img src="img/beach-2334304_1920.jpg" alt="">
+          <img src="img2/berlin-4699765_1920.jpg" alt="">
+          <img src="img2/church-5691858_1920.jpg" alt="">
+        </div>
+        <div class="res-column">
+          <img src="img2/coffee-beans-5712780_1920.jpg" alt="">
+          <img src="img2/girl-5560212_1920.jpg" alt="">
+          <img src="img2/inca-dove-5669389_1920.jpg" alt="">
+          <img src="img2/man-5647507_1920.jpg" alt="">
+          <img src="img2/church-5691858_1920.jpg" alt="">
+          <img src="img/beach-1852945_1280.jpg" alt="">
+          <img src="img2/berlin-4699765_1920.jpg" alt="">
+        </div>
+        <div class="res-column">
+          <img src="img/beach-2334304_1920.jpg" alt="">
+          <img src="img2/berlin-4699765_1920.jpg" alt="">
+          <img src="img2/church-5691858_1920.jpg" alt="">
+          <img src="img2/microphone-5046876_1920.jpg" alt="">
+          <img src="img2/mountain-970704_1920.jpg" alt="">
+          <img src="img/wave 1257.jpg" alt="">
+          <img src="img2/mountaineers-5649828_1920.jpg" alt="">
+          <img src="img2/mountains-5627143_1920.jpg" alt="">
+          <img src="img/landscape-1192669_1280.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Zoom Overlay -->
+
+    <div class="zoom">
+      <h1>Image Hover Fullscreen Zoom</h1>
+      <div class="zoom-cont">
+        <img src="img2/microphone-5046876_1920.jpg" alt="">
+        <div class="overlay">
+          <div class="text">Hello World</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thumbnail Image -->
+    
+    <div class="thumbnail">
+      <h1>Thumbnail Image</h1>
+      <p>click on the image</p>
+      <a href="img2/berlin-4699765_1920.jpg">
+        <img src="img2/berlin-4699765_1920.jpg" alt="">
+      </a>
+    </div>
+
+    <!-- Team -->
+
+    <div class="team">
+      <h1>Meet The Team</h1>
+      <div class="team-row">
+        <div class="team-col">
+          <div class="card">
+            <img src="img2/berlin-4699765_1920.jpg" alt="">
+            <div class="team-cont">
+              <h2>Jane Doe</h2>
+              <p class="title">CEO & Founder</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dicta!</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p><button>Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="team-col">
+          <div class="card">
+            <img src="img2/berlin-4699765_1920.jpg" alt="">
+            <div class="team-cont">
+              <h2>Jane Doe</h2>
+              <p class="title">Art Director</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dicta!</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p><button>Contact</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="team-col">
+          <div class="card">
+            <img src="img2/berlin-4699765_1920.jpg" alt="">
+            <div class="team-cont">
+              <h2>Jane Doe</h2>
+              <p class="title">Designer</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dicta!</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p><button>Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio With Filtering
+    <div class="portfolio">
+      <h1>Portfolio With Filtering</h1>
+      <div class="portfolio-btn">
+        <button class="btn active" onclick="filterSelection('all')">All</button>
+        <button class="btn" onclick="filterSelection('cars')">Car</button>
+        <button class="btn" onclick="filterSelection('cars')">Nature</button>
+        <button class="btn" onclick="filterSelection('cars')">People</button>
+      </div>
+      <div class="port-row">
+        <div class="port-col nature">
+          <div class="port-cont">
+            <img src="img3/away-3024773_1920.jpg" alt="">
+            <h3>Away</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="port-col nature">
+          <div class="port-cont">
+            <img src="img3/bridge-53769_1920.jpg" alt="">
+            <h3>Bridge</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="port-col nature">
+          <div class="port-cont">
+            <img src="img3/sea-1337565_1920.jpg" alt="">
+            <h3>Sea</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="port-col car">
+          <div class="port-cont">
+            <img src="img3/japan-2014617_1920.jpg" alt="">
+            <h3>Japan</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="port-col cars">
+          <div class="port-cont">
+            <img src="img3/car-race-438467_1920.jpg" alt="">
+            <h3>car race</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="port-col cars">
+          <div class="port-cont">
+            <img src="img3/car-1300629_1280.png" alt="">
+            <h3>car</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="port-col people">
+          <div class="port-cont">
+            <img src="img3/people-2591874_1920.jpg" alt="">
+            <h3>people</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="port-col people">
+          <div class="port-cont">
+            <img src="img3/children-817365_1920.jpg" alt="">
+            <h3>children</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="port-col people">
+          <div class="port-cont">
+            <img src="img3/women-1209678_1920.jpg" alt="">
+            <h3>car</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!-- zoom image -->
+
+    <div class="imgzoomer">
+      <h1>Image zoomer <span>***</span></h1>
+      <div class="zoom-img">
+        <img id="mainimg" src="img3/people-2591874_1920.jpg" alt="" width="300" height="240">
+        <div class="result-img" id="resultimg"></div>
+      </div>
+    </div>
+
+    <!-- magnifire -->
+
+    <div class="magnifier">
+      <h1>Image Magnigier Glass</h1>
+      <div class="mag-cont">
+        <img id="magImg" src="img2/man-5647507_1920.jpg" alt="" width="600">
+      </div>
+    </div>
+
+    <!-- Checkout form -->
+
+    <div class="check">
+      <div class="row">
+        <div class="col-75">
+          <div class="cont">
+            <form action="/action_page.pht">
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"><i class="fa fa-user"></i>Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                  <label for="email"><i class="fa fa-envelope"></i>Email</label>
+                  <input type="text" id="email" name="email" placeholder="John@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i>Address</label>
+                  <input type="text" id="adr" name="address" placeholder="542 W. 14th street">
+                  <label for="city"><i class="fa fa-institution"></i>City</label>
+                  <input type="text" name="city" id="city" placeholder="New York">
+                  <div class="row">
+                    <div class="col-50 col-50-l">
+                      <label for="state">State</label>
+                      <input type="text" id="state" name="state" placeholder="NY">
+                    </div>
+                    <div class="col-50 col-50-r">
+                      <label for="zip">Zip</label>
+                      <input type="text" id="zip" name="zip" placeholder="10001">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-cont">
+                    <i class="fa fa-cc-visa" style="color: navy;"></i>
+                    <i class="fa fa-cc-amex" style="color: blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color: red;"></i>
+                    <i class="fa fa-cc-discover" style="color: orange;"></i>
+                  </div>
+                  <label for="cname">Name On Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="september">
+                  <div class="row">
+                    <div class="col-50 col-50-l">
+                      <label for="expyear">Exp Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2020">
+                    </div>
+                    <div class="col-50 col-50-r">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <label>
+                <input type="checkbox" checked name="sameadr"> Shipping address same as billing
+              </label>
+              <input type="submit" value="Continue to checkout" class="btn">
+            </form>
+          </div>
+        </div>
+        <div class="col-25">
+          <div class="cont">
+            <h4>Cart <span class="price" style="color: black;"><i class="fa fa-shopping-cart"></i><b>4</b></span></h4>
+            <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+            <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+            <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+            <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+            <hr>
+            <p>Total <span class="price" style="color: balck;"><b>$30</b></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Social Login Form -->
+
+
+    
+    <div class="login">
+      <h1>Social Login Form</h1>
+      <div class="log-cont">
+        <form action="/action_page.php">
+        <div class="row">
+          <div class="vl">
+            <span class="vl-innertext">or</span>
+          </div>
+          <div class="col">
+            <a href="#" class="fb btn">
+              <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+             </a>
+            <a href="#" class="twitter btn">
+              <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+            </a>
+            <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+              </i> Login with Google+
+            </a>
+          </div>
+          <div class="col">
+            <div class="hide-md-lg">
+              <p>Or sign in manually:</p>
+            </div>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <!-- clear fild-->
+            
+            <input type="text" onfocus="this.value=''" value="Clear fild">
+
+            <!-- Hide number arrow-->
+            <input type="number" value="5">
+            <input type="submit" value="Login">
+          </div>
+        </div></form>
+      </div>
+      <div class="bottom-cont">
+        <div class="row">
+          <div class="col">
+            <a href="#" style="color: white;" class="btn">Sign Up</a>
+          </div>
+          <div class="col">
+            <a href="#" style="color: white;" class="btn">Forgot Password</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copy text -->
+
+    <div class="copytext">
+      <input type="text" value="hello world">
+      <button>copy</button>
+    </div>
+
+    <!-- password validation-->
+
+    <div class="passval">
+      <h1>password validation</h1>
+      <div class="passval-cont">
+        <form action="/action_page.php">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+          <label for="psw">Password</label>
+          <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+          <input type="submit" value="submit">
+        </form>
+      </div>
+      <div class="message">
+        <h3>password must contain the following:</h3>
+        <p id="letter" class="invalid">A <b>lowercase</b></p>
+        <p id="capital" class="invalid">A <b>capital (uppercase)</b></p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>8 charecters</b></p>
+      </div>
+    </div>
+
+    <!-- sort table-->
+
+    <div class="sort">
+      <button class="sortbtn">Sort</button>
+      <table class="sort-table">
+        <tr>
+          <th>Name</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Berglunds snabbkop</td>
+          <td>Sweden</td>
+        </tr>
+        <tr>
+          <td>North/South</td>
+          <td>UK</td>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Koniglich Essen</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Italy</td>
+        </tr>
+        <tr>
+          <td>Paris specialites</td>
+          <td>France</td>
+        </tr>
+        <tr>
+          <td>Island Trading</td>
+          <td>UK</td>
+        </tr>
+        
+      </table>
+    </div>
+
+    <!-- timeline -->
+
+
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>2017</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2016</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2015</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2012</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>2011</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2007</h2>
+          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- scroll bar -->
+    <button class="progressbtn">click</button>
+    <div class="progress">
+      <div class="progress-bar"></div>
+    </div>
+
+    <!-- Range sider with value-->
+
+    <div class="range-slider">
+      <h1>Custom Range Slider</h1>
+      <div class="slidecontainer">
+        <input type="range" max="100" value="50" class="slider">
+        <p>Value: <span class="slideValue"></span></p>
+      </div>
+    </div>
+
+    <div class="image-container">
+      <div class="text">NATURE</div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
